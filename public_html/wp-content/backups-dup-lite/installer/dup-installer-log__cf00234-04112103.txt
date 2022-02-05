@@ -1,0 +1,789 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 07:00:31
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.26                                |7.1.33
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-02-04 11:21:03
+WP VERSION__________: 5.9
+DUP VERSION_________: 1.4.4
+DB__________________: 10.5.12
+DB TABLES___________: 46
+DB ROWS_____________: 7,467
+DB FILE SIZE________: 5.38MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.33 | SAPI: apache2handler
+PHP MEMORY__________: 1024M | SUHOSIN: disabled
+SERVER______________: Apache/2.4.29
+DOC ROOT____________: "/home/c/ci75377/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://tamaka.ru/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/c/ci75377/public_html/20220204_d182d0b0d0bcd0b0d0bad0b0_[HASH]_20220204112103_archive.zip"
+SIZE________________: 46.13MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:00:33 - RUNTIME: 2.0425 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'ci75377'@'localhost' (using password: YES) [CODE:2|FILE:/home/c/ci75377/public_html/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'ci75377'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:03:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.35 -- Build Server: 10.5.12
+FILE SIZE:	dup-database__[HASH].sql (2.08MB)
+TIMEOUT:	5000
+MAXPACK:	20971520
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/c/ci75377/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.35] is less than the build version [10.5.12].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	408
+
+wp_actionscheduler_actions: (230)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (690)
+wp_commentmeta: (0)
+wp_comments: (3)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (335)
+wp_postmeta: (4813)
+wp_posts: (281)
+wp_term_relationships: (689)
+wp_term_taxonomy: (26)
+wp_termmeta: (39)
+wp_terms: (26)
+wp_usermeta: (47)
+wp_users: (1)
+wp_wc_admin_note_actions: (44)
+wp_wc_admin_notes: (41)
+wp_wc_category_lookup: (19)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (2)
+wp_wc_order_stats: (2)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (118)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (30)
+wp_woocommerce_order_items: (4)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (1)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpfm_backup: (0)
+Removed '75' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3769 sec.
+STEP-2 COMPLETE @ 07:03:08 - RUNTIME: 0.3873 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:03:13
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "ТАМАКА"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/u276990809/domains/guarana.esy.es/public_html"
+path_new______________: "/home/c/ci75377/public_html"
+siteurl_______________: "https://tamaka.ru"
+url_old_______________: "http://guarana.esy.es"
+url_new_______________: "https://tamaka.ru"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   230][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   690][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   335][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4813][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   281][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   689][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   118][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u276990809/domains/guarana.esy.es/public_html" => "/home/c/ci75377/public_html"
+	SEARCH  2:"\/home\/u276990809\/domains\/guarana.esy.es\/public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  3:"%2Fhome%2Fu276990809%2Fdomains%2Fguarana.esy.es%2Fpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  4:"\home\u276990809\domains\guarana.esy.es\public_html" => "/home/c/ci75377/public_html"
+	SEARCH  5:"\\home\\u276990809\\domains\\guarana.esy.es\\public_html" => "\/home\/c\/ci75377\/public_html"
+	SEARCH  6:"%5Chome%5Cu276990809%5Cdomains%5Cguarana.esy.es%5Cpublic_html" => "%2Fhome%2Fc%2Fci75377%2Fpublic_html"
+	SEARCH  7:"//guarana.esy.es" ================================> "//tamaka.ru"
+	SEARCH  8:"\/\/guarana.esy.es" ==============================> "\/\/tamaka.ru"
+	SEARCH  9:"%2F%2Fguarana.esy.es" ============================> "%2F%2Ftamaka.ru"
+	SEARCH 10:"//www.guarana.esy.es" ============================> "//tamaka.ru"
+	SEARCH 11:"\/\/www.guarana.esy.es" ==========================> "\/\/tamaka.ru"
+	SEARCH 12:"%2F%2Fwww.guarana.esy.es" ========================> "%2F%2Ftamaka.ru"
+	SEARCH 13:"http://tamaka.ru" ================================> "https://tamaka.ru"
+	SEARCH 14:"http:\/\/tamaka.ru" ==============================> "https:\/\/tamaka.ru"
+	SEARCH 15:"http%3A%2F%2Ftamaka.ru" ==========================> "https%3A%2F%2Ftamaka.ru"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:7450 	|	 Cells:39274 
+UPDATED:	Tables:4 	|	 Rows:289 	|	 Cells:290 
+ERRORS:		0 
+RUNTIME:	0.090000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:03:13 - RUNTIME: 0.1233 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

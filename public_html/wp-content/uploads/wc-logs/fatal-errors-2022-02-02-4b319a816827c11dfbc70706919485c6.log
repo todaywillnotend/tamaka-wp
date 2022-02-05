@@ -1,0 +1,8 @@
+2022-02-02T16:18:32+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 79
+
+2022-02-02T16:18:53+00:00 CRITICAL syntax error, unexpected end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 106
+
+2022-02-02T16:45:04+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 29
+
+2022-02-02T19:52:02+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ')' в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 76
+

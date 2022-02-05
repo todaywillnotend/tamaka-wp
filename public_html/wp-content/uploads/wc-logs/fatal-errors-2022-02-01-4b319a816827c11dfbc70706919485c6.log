@@ -1,0 +1,76 @@
+2022-02-01T16:25:54+00:00 CRITICAL Uncaught Error: Call to undefined function the_premalink() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/single-product.php:99
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/single-product.php на строке 99
+
+2022-02-01T16:26:23+00:00 CRITICAL Uncaught Error: Call to undefined function the_premalink() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/single-product.php:99
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/single-product.php на строке 99
+
+2022-02-01T19:22:40+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 19
+
+2022-02-01T19:37:56+00:00 CRITICAL Uncaught Error: Call to undefined function mx42_pagination() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php:45
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/page.php(5): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#3 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#4 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 45
+
+2022-02-01T19:48:49+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php:56
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/page.php(5): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#3 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#4 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/archive.php на строке 56
+
+2022-02-01T21:02:07+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 7
+
+2022-02-01T21:02:42+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 102
+
+2022-02-01T21:02:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php:31
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 31
+
+2022-02-01T21:02:54+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php:31
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 31
+
+2022-02-01T21:04:22+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php:77
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 77
+
+2022-02-01T21:04:24+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php:77
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#2 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#3 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 77
+
+2022-02-01T21:05:09+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php на строке 74
+
+2022-02-01T21:35:13+00:00 CRITICAL syntax error, unexpected '<' в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/index.php на строке 31
+

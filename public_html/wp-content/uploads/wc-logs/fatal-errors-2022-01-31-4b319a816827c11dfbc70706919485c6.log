@@ -1,0 +1,80 @@
+2022-01-31T15:21:30+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:21:42+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:23:52+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:25:21+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:26:01+00:00 CRITICAL Uncaught Error: Call to undefined function wp_header() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php:19
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(716): load_template('/home/u27699080...', true, Array)
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php(1): get_header()
+#4 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#5 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#6 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#7 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php на строке 19
+
+2022-01-31T15:26:09+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:27:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php:18
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(716): load_template('/home/u27699080...', true, Array)
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php(1): get_header()
+#4 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#5 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#6 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#7 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php на строке 18
+
+2022-01-31T15:28:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php:18
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(716): load_template('/home/u27699080...', true, Array)
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php(1): get_header()
+#4 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#5 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#6 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#7 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php на строке 18
+
+2022-01-31T15:29:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php:18
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(716): load_template('/home/u27699080...', true, Array)
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php(1): get_header()
+#4 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#5 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#6 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#7 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php на строке 18
+
+2022-01-31T15:29:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php:18
+Stack trace:
+#0 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template.php(716): load_template('/home/u27699080...', true, Array)
+#2 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/front-page.php(1): get_header()
+#4 /home/u276990809/domains/guarana.esy.es/public_html/wp-includes/template-loader.php(106): include('/home/u27699080...')
+#5 /home/u276990809/domains/guarana.esy.es/public_html/wp-blog-header.php(19): require_once('/home/u27699080...')
+#6 /home/u276990809/domains/guarana.esy.es/public_html/index.php(17): require('/home/u27699080...')
+#7 {main}
+  thrown в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/header.php на строке 18
+
+2022-01-31T15:30:05+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:30:22+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:30:46+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T15:36:19+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
+2022-01-31T16:20:21+00:00 CRITICAL syntax error, unexpected '>', expecting end of file в /home/u276990809/domains/guarana.esy.es/public_html/wp-content/themes/verts/footer.php на строке 16
+
