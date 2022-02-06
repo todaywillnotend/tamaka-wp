@@ -647,3 +647,135 @@ Stack trace:
 [05-Feb-2022 10:02:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
 [05-Feb-2022 10:08:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
 [05-Feb-2022 10:08:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 10:16:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:02:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:08:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:09:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 11:57:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:08:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:08:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:09:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:09:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:11:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:11:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:30:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 12:42:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 13:08:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 13:08:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 13:50:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:08:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:08:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:36:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:36:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 14:48:05 UTC] PHP Notice:  Trying to get property of non-object in /home/c/ci75377/public_html/wp-content/themes/tamaka/archive.php on line 3
+[05-Feb-2022 14:48:05 UTC] PHP Notice:  Trying to get property of non-object in /home/c/ci75377/public_html/wp-content/themes/tamaka/archive.php on line 4
+[05-Feb-2022 14:48:10 UTC] PHP Notice:  Trying to get property of non-object in /home/c/ci75377/public_html/wp-content/themes/tamaka/archive.php on line 3
+[05-Feb-2022 14:48:10 UTC] PHP Notice:  Trying to get property of non-object in /home/c/ci75377/public_html/wp-content/themes/tamaka/archive.php on line 4
+[05-Feb-2022 15:08:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 15:08:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 15:58:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 16:08:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 16:08:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 16:09:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 16:09:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 16:19:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 17:08:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 17:08:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 17:53:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 18:08:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 18:08:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 18:42:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 19:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): include()
+#1 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#3 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#4 {main}
+  thrown in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php on line 27
+[05-Feb-2022 19:31:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 19:46:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_image_id() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php:12
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): include()
+#1 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#3 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#4 {main}
+  thrown in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php on line 12
+[05-Feb-2022 19:50:08 UTC] PHP Deprecated:  Non-static method WooCommerce::plugin_path() should not be called statically in /home/c/ci75377/public_html/wp-content/themes/tamaka/functions.php on line 201
+[05-Feb-2022 19:50:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/functions.php(202): include()
+#1 /home/c/ci75377/public_html/wp-includes/shortcodes.php(356): my_gallery_func('', '', 'my-gallery')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/c/ci75377/public_html/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my\\-ga...', 'do_shortcode_ta...', '[my-gallery]')
+#4 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): do_shortcode('[my-gallery]')
+#5 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#6 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#7 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#8 {main}
+  thrown in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php on line 27
+[05-Feb-2022 19:53:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/functions.php(201): include()
+#1 /home/c/ci75377/public_html/wp-includes/shortcodes.php(356): my_gallery_func('', '', 'my-gallery')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/c/ci75377/public_html/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my\\-ga...', 'do_shortcode_ta...', '[my-gallery]')
+#4 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): do_shortcode('[my-gallery]')
+#5 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#6 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#7 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#8 {main}
+  thrown in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php on line 27
+[05-Feb-2022 19:59:10 UTC] PHP Warning:  Illegal string offset 'main_image_width' in /home/c/ci75377/public_html/wp-content/plugins/twist/inc/admin/admin.php on line 70
+[05-Feb-2022 19:59:10 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/c/ci75377/public_html/wp-content/plugins/twist/inc/admin/admin.php on line 70
+[05-Feb-2022 19:59:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/twist/inc/admin/admin.php:70) in /home/c/ci75377/public_html/wp-includes/functions.php on line 6821
+[05-Feb-2022 19:59:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/twist/inc/admin/admin.php:70) in /home/c/ci75377/public_html/wp-admin/includes/misc.php on line 1310
+[05-Feb-2022 19:59:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/twist/inc/admin/admin.php:70) in /home/c/ci75377/public_html/wp-admin/admin-header.php on line 9
+[05-Feb-2022 19:59:43 UTC] PHP Notice:  Undefined property: stdClass::$license_key in /home/c/ci75377/public_html/wp-content/plugins/twist/twist.php on line 226
+[05-Feb-2022 19:59:43 UTC] PHP Notice:  Undefined property: stdClass::$msg in /home/c/ci75377/public_html/wp-content/plugins/twist/twist.php on line 237
+[05-Feb-2022 20:05:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_image_id() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php:23
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#3 {main}
+  thrown in /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php on line 23
+[05-Feb-2022 20:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 20:20:11 UTC] PHP Deprecated:  Функция Тема без sidebar.php с версии 3.0.0 <strong>считается устаревшей</strong>. Альтернативы не предусмотрено. Пожалуйста, включите шаблон sidebar.php в вашу тему. in /home/c/ci75377/public_html/wp-includes/functions.php on line 5516
+[05-Feb-2022 20:21:55 UTC] PHP Deprecated:  Функция Тема без sidebar.php с версии 3.0.0 <strong>считается устаревшей</strong>. Альтернативы не предусмотрено. Пожалуйста, включите шаблон sidebar.php в вашу тему. in /home/c/ci75377/public_html/wp-includes/functions.php on line 5516
+[05-Feb-2022 20:22:21 UTC] PHP Deprecated:  Функция Тема без sidebar.php с версии 3.0.0 <strong>считается устаревшей</strong>. Альтернативы не предусмотрено. Пожалуйста, включите шаблон sidebar.php в вашу тему. in /home/c/ci75377/public_html/wp-includes/functions.php on line 5516
+[05-Feb-2022 20:23:46 UTC] PHP Deprecated:  Функция Тема без sidebar.php с версии 3.0.0 <strong>считается устаревшей</strong>. Альтернативы не предусмотрено. Пожалуйста, включите шаблон sidebar.php в вашу тему. in /home/c/ci75377/public_html/wp-includes/functions.php on line 5516
+[05-Feb-2022 20:25:56 UTC] PHP Deprecated:  Функция Тема без sidebar.php с версии 3.0.0 <strong>считается устаревшей</strong>. Альтернативы не предусмотрено. Пожалуйста, включите шаблон sidebar.php в вашу тему. in /home/c/ci75377/public_html/wp-includes/functions.php on line 5516
+[05-Feb-2022 20:26:40 UTC] PHP Warning:  include(/home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/archive-product.php): failed to open stream: No such file or directory in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 345
+[05-Feb-2022 20:26:40 UTC] PHP Warning:  include(/home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/archive-product.php): failed to open stream: No such file or directory in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 345
+[05-Feb-2022 20:26:40 UTC] PHP Warning:  include(): Failed opening '/home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/archive-product.php' for inclusion (include_path='.:/opt/php71/share/pear') in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 345
+[05-Feb-2022 20:28:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/c/ci75377/public_html/wp-content/themes/tamaka/woocommerce/archive-product.php on line 2
+[05-Feb-2022 20:29:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/themes/tamaka/header.php:6) in /home/c/ci75377/public_html/wp-content/themes/tamaka/footer.php on line 35
+[05-Feb-2022 20:31:08 UTC] PHP Notice:  Undefined index: urls in /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php on line 341
+[05-Feb-2022 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-includes/functions.php on line 6821
+[05-Feb-2022 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/includes/misc.php on line 1310
+[05-Feb-2022 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/admin-header.php on line 9
+[05-Feb-2022 20:31:23 UTC] PHP Notice:  Undefined index: carousel_general_main_slider_swipe_threshold in /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-settings.php on line 205
+[05-Feb-2022 20:31:23 UTC] PHP Notice:  Undefined index: urls in /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php on line 341
+[05-Feb-2022 20:31:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-includes/functions.php on line 6821
+[05-Feb-2022 20:31:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/includes/misc.php on line 1310
+[05-Feb-2022 20:31:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/admin-header.php on line 9
+[05-Feb-2022 20:31:50 UTC] PHP Notice:  Undefined index: urls in /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php on line 341
+[05-Feb-2022 20:31:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-includes/functions.php on line 6821
+[05-Feb-2022 20:31:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/includes/misc.php on line 1310
+[05-Feb-2022 20:31:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/admin-header.php on line 9
+[05-Feb-2022 20:33:27 UTC] PHP Notice:  Undefined index: urls in /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php on line 341
+[05-Feb-2022 20:33:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-includes/functions.php on line 6821
+[05-Feb-2022 20:33:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/includes/misc.php on line 1310
+[05-Feb-2022 20:33:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/c/ci75377/public_html/wp-content/plugins/woothumbs-premium/inc/class-core-licence.php:341) in /home/c/ci75377/public_html/wp-admin/admin-header.php on line 12
