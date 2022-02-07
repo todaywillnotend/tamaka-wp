@@ -1,0 +1,54 @@
+2022-02-05T19:23:05+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): include()
+#1 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#3 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#4 {main}
+  thrown в /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php на строке 27
+
+2022-02-05T19:46:34+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php:12
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): include()
+#1 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#3 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#4 {main}
+  thrown в /home/c/ci75377/public_html/wp-content/themes/tamaka/prod_gal.php на строке 12
+
+2022-02-05T19:50:08+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/functions.php(202): include()
+#1 /home/c/ci75377/public_html/wp-includes/shortcodes.php(356): my_gallery_func('', '', 'my-gallery')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/c/ci75377/public_html/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my\\-ga...', 'do_shortcode_ta...', '[my-gallery]')
+#4 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): do_shortcode('[my-gallery]')
+#5 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#6 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#7 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#8 {main}
+  thrown в /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php на строке 27
+
+2022-02-05T19:53:20+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php:27
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-content/themes/tamaka/functions.php(201): include()
+#1 /home/c/ci75377/public_html/wp-includes/shortcodes.php(356): my_gallery_func('', '', 'my-gallery')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/c/ci75377/public_html/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my\\-ga...', 'do_shortcode_ta...', '[my-gallery]')
+#4 /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php(15): do_shortcode('[my-gallery]')
+#5 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include('/home/c/ci75377...')
+#6 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#7 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#8 {main}
+  thrown в /home/c/ci75377/public_html/wp-content/plugins/woocommerce/templates/single-product/product-thumbnails.php на строке 27
+
+2022-02-05T20:05:56+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php:23
+Stack trace:
+#0 /home/c/ci75377/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/ci75377/public_html/wp-blog-header.php(19): require_once('/home/c/ci75377...')
+#2 /home/c/ci75377/public_html/index.php(17): require('/home/c/ci75377...')
+#3 {main}
+  thrown в /home/c/ci75377/public_html/wp-content/themes/tamaka/single-product.php на строке 23
+
+2022-02-05T20:28:47+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в /home/c/ci75377/public_html/wp-content/themes/tamaka/woocommerce/archive-product.php на строке 2
+

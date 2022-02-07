@@ -4,7 +4,7 @@ Contributors: wpdesk,dyszczo,grola,piotrpo,marcinkolanko,mateuszgbiorczyk,sebast
 Donate link: https://www.wpdesk.net/flexible-checkout-fields-woocommerce/
 Tags: woocommerce checkout fields, woocommerce custom fields, woocommerce checkout manager, woocommerce checkout editor, woocommerce fields manager
 Requires at least: 4.9
-Tested up to: 5.8
+Tested up to: 5.9
 Stable tag: trunk
 Requires PHP: 7.0
 License: GPLv3 or later
@@ -191,6 +191,11 @@ Yes, but you will have to purchase [Flexible Checkout Fields PRO](https://www.wp
 If you are upgrading from the old WooCommerce Checkout Fields version (1.1, woocommerce-checkout-fields) make sure to completely delete the old version first. Your settings will be kept. If you install the new version without deleting the old one you may break your WordPress installation.
 
 == Changelog ==
+
+= 3.1.3 - 2022-02-03 =
+* Added settings migration tool
+* Added support for WordPress 5.9
+* Added support for WooCommerce 6.1
 
 = 3.1.2 - 2021-11-29 =
 * Fixed saving line breaks for textarea field

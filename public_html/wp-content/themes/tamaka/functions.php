@@ -195,5 +195,9 @@ function keep_specific_country_states( $states ) {
     }
     return $states;
 }
-
+add_shortcode('my-gallery', 'my_gallery_func');
+function my_gallery_func($atts, $content){
+	$path = WP_PLUGIN_DIR . '/woocommerce';
+    include($path . '/templates/single-product/product-thumbnails.php');
+}
 ?>

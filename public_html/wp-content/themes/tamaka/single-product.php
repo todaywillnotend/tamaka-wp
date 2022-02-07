@@ -11,7 +11,8 @@
 	<div class="container">
 		<div class="item__content">
 			<div class="item__image">
-				<img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+				<!--img src="<?php echo get_the_post_thumbnail_url();?>" alt=""-->
+                <?php echo do_shortcode('[woothumbs-gallery]');?>
 			</div>
 			<div class="item__main">
 				<div class="item__title">

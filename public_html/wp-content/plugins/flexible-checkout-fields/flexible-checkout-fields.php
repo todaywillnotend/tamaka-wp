@@ -3,15 +3,15 @@
 	Plugin Name: Flexible Checkout Fields
 	Plugin URI: https://www.wpdesk.net/products/flexible-checkout-fields-pro-woocommerce/
 	Description: Manage your WooCommerce checkout fields. Change order, labels, placeholders and add new fields.
-	Version: 3.1.2
+	Version: 3.1.3
 	Author: WP Desk
 	Author URI: https://www.wpdesk.net/
 	Text Domain: flexible-checkout-fields
 	Domain Path: /lang/
 	Requires at least: 5.2
-	Tested up to: 5.8
-	WC requires at least: 5.6
-	WC tested up to: 6.0
+	Tested up to: 5.9
+	WC requires at least: 5.7
+	WC tested up to: 6.1
 	Requires PHP: 7.0
 
 	Copyright 2017 WP Desk Ltd.
@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 /* THIS VARIABLE CAN BE CHANGED AUTOMATICALLY */
-$plugin_version = '3.1.2';
+$plugin_version = '3.1.3';
 
 /*
  * Update when conditions are met:

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit608b64501c466b3002826cb900c23228
+class ComposerStaticInit80d22af9fb097430b94704dbeb7f0839
 {
     public static $prefixLengthsPsr4 = array (
         'W' => 
@@ -137,10 +137,12 @@ class ComposerStaticInit608b64501c466b3002826cb900c23228
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\LocalCodeceptionTrait' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/LocalCodeceptionTrait.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\PrepareCodeceptionDb' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/PrepareCodeceptionDb.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\PrepareLocalCodeceptionTests' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/PrepareLocalCodeceptionTests.php',
+        'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\PrepareLocalCodeceptionTestsWithCoverage' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/PrepareLocalCodeceptionTestsWithCoverage.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\PrepareParallelCodeceptionTests' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/PrepareParallelCodeceptionTests.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\PrepareWordpressForCodeception' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/PrepareWordpressForCodeception.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\RunCodeceptionTests' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/RunCodeceptionTests.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\RunLocalCodeceptionTests' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/RunLocalCodeceptionTests.php',
+        'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\RunLocalCodeceptionTestsWithCoverage' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/RunLocalCodeceptionTestsWithCoverage.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\SedTrait' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/SedTrait.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Commands\\SettingsException' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Commands/SettingsException.php',
         'FcfVendor\\WPDesk\\Composer\\Codeception\\Plugin' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-codeception/src/WPDesk/Composer/Plugin.php',
@@ -368,6 +370,9 @@ class ComposerStaticInit608b64501c466b3002826cb900c23228
         'WPDesk\\FCF\\Free\\Settings\\Form\\SettingsPageForm' => __DIR__ . '/../..' . '/src/Settings/Form/SettingsPageForm.php',
         'WPDesk\\FCF\\Free\\Settings\\Forms' => __DIR__ . '/../..' . '/src/Settings/Forms.php',
         'WPDesk\\FCF\\Free\\Settings\\Menu' => __DIR__ . '/../..' . '/src/Settings/Menu.php',
+        'WPDesk\\FCF\\Free\\Settings\\MigrationsManager' => __DIR__ . '/../..' . '/src/Settings/MigrationsManager.php',
+        'WPDesk\\FCF\\Free\\Settings\\Migrations\\Migration' => __DIR__ . '/../..' . '/src/Settings/Migrations/Migration.php',
+        'WPDesk\\FCF\\Free\\Settings\\Migrations\\Migration320' => __DIR__ . '/../..' . '/src/Settings/Migrations/Migration320.php',
         'WPDesk\\FCF\\Free\\Settings\\Option\\CssOption' => __DIR__ . '/../..' . '/src/Settings/Option/CssOption.php',
         'WPDesk\\FCF\\Free\\Settings\\Option\\CustomFieldDisabledOption' => __DIR__ . '/../..' . '/src/Settings/Option/CustomFieldDisabledOption.php',
         'WPDesk\\FCF\\Free\\Settings\\Option\\CustomFieldOption' => __DIR__ . '/../..' . '/src/Settings/Option/CustomFieldOption.php',
@@ -437,9 +442,9 @@ class ComposerStaticInit608b64501c466b3002826cb900c23228
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit608b64501c466b3002826cb900c23228::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit608b64501c466b3002826cb900c23228::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit608b64501c466b3002826cb900c23228::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit80d22af9fb097430b94704dbeb7f0839::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit80d22af9fb097430b94704dbeb7f0839::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit80d22af9fb097430b94704dbeb7f0839::$classMap;
 
         }, null, ClassLoader::class);
     }
